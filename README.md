@@ -2,6 +2,8 @@
 
 A content-based movie recommender system that suggests movies similar to your favorites.
 
+Check out the live demo: [Movie Recommender System](https://movie-recommender-system-pyt.streamlit.app/)
+
 ## 📌 Overview
 This project implements a movie recommendation engine using **Cosine Similarity**. It suggests 5 similar movies based on a selected movie's metadata (genres, keywords, cast, crew, etc.). The processed data is powered by the **TMDB 5000 Movie Dataset**.
 
