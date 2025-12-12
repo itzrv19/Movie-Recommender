@@ -30,7 +30,7 @@ This project implements a movie recommendation engine using **Cosine Similarity*
 
 2.  **Install dependencies**:
     ```bash
-    pip install streamlit pandas requests
+    pip install streamlit pandas requests 
     ```
 
 3.  **Download Data Files**:
