@@ -1,4 +1,4 @@
-# Movie Recommender System 🎬
+# Movie Recommender System 🎬 
 
 A content-based movie recommender system that suggests movies similar to your favorites.
 
