@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 import requests
 import time
+import numpy as np
 
 
 @st.cache_data
@@ -46,8 +47,10 @@ def recommend(movie):
 movies_dict = pickle.load(open("movies_dict.pkl", "rb"))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open("similarity.pkl", "rb"))
+ # similarity = pickle.load(open("similarity.pkl", "rb"))
+data = np.load("similarity_compressed.npz")
 
+similarity = data["similarity"]
 
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 
